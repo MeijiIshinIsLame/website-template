@@ -89,6 +89,13 @@ blockquote p:last-child {
   margin-bottom: 0;  
 }
 
+
+
+img.avatar {
+  border-radius: 50%;
+  width: 20%;
+}
+
 /**
  * Layout styles
  */
