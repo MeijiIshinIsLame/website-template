@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://bettermotherfuckingwebsite.com/ -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Notes</title>
+    <style type="text/css">
+      body {
+        margin: 40px auto;
+        max-width: 650px;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #444;
+        padding: 0 10px
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+	  
+	  ul {
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Zach's Stable Diffusion/AI Notes</h1>
+	  <h4>Every day it is getting harder and harder for me to keep up with all the terminology and methods with Stable Diffusion, so I wrote some notes.</h4>
+	  <h4>FYI- most of the long form answers are from ChatGPT. Seriously underrated resource particularly for complex topics with little documentation made for the common pleb.</h4>
+	  <hr>
+    </header>
+	<br>
+	
+	<h2>Instance Image VS Classifier Image</h2>
+	<p>An instance image, in this context, is a specific example of a particular class of image that the GAN is being trained on. For example, if the GAN is being trained on photographs of cats, an instance image might be a specific photograph of a particular cat. These instance images are used as input to the GAN during training, along with the class images.</p>
+	<p>A class image, on the other hand, is a representative image of a particular class of objects. In the case of a GAN trained on cat photographs, a class image of a cat might be a composite image that incorporates the defining features of a cat, such as its shape, color, and texture. The class image is not a specific photograph of a particular cat, but rather a generali</p>
+	
+	<h2>Training Notes (Mostly From Discord)</h2>
+	<ul>
+	<li>If you are training on a specific art style, hypernetworks usually work the best.</li>
+	<li>If you are training on a specific character, dreambooth usually work the best.</li>
+	<li>When it comes to SD finetuning, always pick quality over quantity. Images with good manual tagging tend to work better than automated bad tagging.</li>
+	</ul>
+	
+	<h2>Bucketing</h2>
+	<p>
+	In the context of neural networks, bucketing refers to the process of dividing the input data into groups, or "buckets," based on certain criteria. This can be useful for a number of reasons. For example, bucketing can help to make the training process more efficient by grouping together inputs that are similar in some way, such as having similar lengths or values. This can allow the model to process the input data more quickly and effectively.
+	</p>
+	<p>
+	Bucketing can also be useful for handling inputs of varying sizes, such as sequences of words in natural language processing tasks. By dividing the input data into buckets based on their lengths, the model can more easily process inputs of different sizes without requiring additional padding or other preprocessing steps.
+	</p>
+  </body>
+</html>
